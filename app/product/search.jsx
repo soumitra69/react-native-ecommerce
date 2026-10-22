@@ -1,6 +1,6 @@
-import React from "react";
-import { View } from "react-native";
+import React from 'react';
+import SearchScreen from '../(tabs)/search';
 
-export default function Screen() {
-    return <View />;
+export default function ProductSearchRoute() {
+  return <SearchScreen />;
 }

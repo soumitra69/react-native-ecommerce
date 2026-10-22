@@ -44,7 +44,7 @@ with <b>user experience at the heart of every screen</b>.
 
 | Splash | Onboarding 1 | Onboarding 2 | Onboarding 3 |
 |:------:|:------------:|:------------:|:------------:|
-| <img src="https://drive.google.com/uc?export=view&id=160T7T8STNBQZYFmi0X6jkgZT7Nr-6p1p" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=1LdB1Rf66VERWga_YGF3r9qVS-5YTsBcW" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=1sFTJtZSi2PIRUIAO45p8cRp4GJqvFDIG" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=16RLShCLfIVT2e4zKm6LFBjiBRiA2K0ql" width="180"/> |
+| <img src="./assets/screenshots/splash.svg" width="180" alt="Splash Screen"/> | <img src="./assets/screenshots/onboarding1.svg" width="180" alt="Onboarding 1"/> | <img src="./assets/screenshots/onboarding2.svg" width="180" alt="Onboarding 2"/> | <img src="./assets/screenshots/onboarding3.svg" width="180" alt="Onboarding 3"/> |
 
 <br>
 
@@ -52,7 +52,15 @@ with <b>user experience at the heart of every screen</b>.
 
 | Login | Sign Up | Wishlist | Profile |
 |:------:|:-------:|:---------:|:--------:|
-| <img src="https://drive.google.com/uc?export=view&id=1ZP7-P56EmrJWSuzTqtEuyJjYMwZuNNxK" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=1ykTBRVkBlNtKPJN-WtNa1qyiF6BCp_F1" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=18lk26px4n5SehZpFbZR-F-MYsQsqZOgs" width="180"/> | <img src="https://drive.google.com/uc?export=view&id=1r2Ee8FN6oi40Wm7Dz8FuUNOs1G2hMAd8" width="180"/> |
+| <img src="./assets/screenshots/login.svg" width="180" alt="Login Screen"/> | <img src="./assets/screenshots/signup.svg" width="180" alt="Sign Up Screen"/> | <img src="./assets/screenshots/wishlist.svg" width="180" alt="Wishlist Screen"/> | <img src="./assets/screenshots/profile.svg" width="180" alt="Profile Screen"/> |
+
+<br>
+
+### 🛍️ Shopping & Checkout Experience
+
+| Home Screen | Product Details | Shopping Cart | Order Confirmed |
+|:-----------:|:---------------:|:-------------:|:---------------:|
+| <img src="./assets/screenshots/home.svg" width="180" alt="Home Screen"/> | <img src="./assets/screenshots/product-details.svg" width="180" alt="Product Details"/> | <img src="./assets/screenshots/cart.svg" width="180" alt="Shopping Cart"/> | <img src="./assets/screenshots/checkout-success.svg" width="180" alt="Order Confirmed"/> |
 
 </div>
 
@@ -225,25 +233,25 @@ Stay tuned for exciting new features and continuous improvements!
 
 | Status | Feature | Progress |
 |:------:|---------|:--------:|
-| 🟡 | Home Screen Enhancements | Coming Soon |
-| 🟡 | Product Details Page | Coming Soon |
-| 🟡 | Categories & Filters | Coming Soon |
-| 🟡 | Advanced Search | Coming Soon |
-| 🟡 | Shopping Cart Improvements | Coming Soon |
-| 🟡 | Secure Checkout Flow | Coming Soon |
-| 🟡 | Payment Gateway Integration | Coming Soon |
-| 🟡 | Order History | Coming Soon |
+| 🟢 | Home Screen Enhancements | Completed |
+| 🟢 | Product Details Page | Completed |
+| 🟢 | Categories & Filters | Completed |
+| 🟢 | Advanced Search | Completed |
+| 🟢 | Shopping Cart Improvements | Completed |
+| 🟢 | Secure Checkout Flow | Completed |
+| 🟡 | Payment Gateway Integration | Simulated (Demo) |
+| 🟢 | Order History | Completed |
 | 🟡 | Order Tracking | Coming Soon |
-| 🟡 | User Profile Management | Coming Soon |
-| 🟡 | Wishlist Synchronization | Coming Soon |
-| 🟡 | Product Reviews & Ratings | Coming Soon |
-| 🟡 | Coupons & Discounts | Coming Soon |
+| 🟢 | User Profile Management | Completed |
+| 🟢 | Wishlist Synchronization | Completed |
+| 🟢 | Product Reviews & Ratings | Completed |
+| 🟢 | Coupons & Discounts | Completed |
 | 🟡 | Push Notifications | Coming Soon |
 | 🟡 | Dark Mode | Coming Soon |
 | 🟡 | Multi-language Support | Coming Soon |
 | 🟡 | Accessibility Improvements (Screen Reader, Text Scaling) | Coming Soon |
-| 🟡 | Performance Optimizations | Coming Soon |
-| 🟡 | Backend API Integration | Coming Soon |
+| 🟢 | Performance Optimizations | Completed |
+| 🟡 | Backend API Integration | Offline + Mock Catalog |
 
 ---
 

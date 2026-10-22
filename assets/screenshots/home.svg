@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F83758"/>
+      <stop offset="100%" stop-color="#FF758F"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4392F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="352" height="732" rx="38" fill="#0F172A" />
+  <rect x="12" y="12" width="336" height="716" rx="30" fill="#FFFFFF" />
+  <text x="32" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0F172A">9:41</text>
+  <rect x="132" y="20" width="96" height="18" rx="9" fill="#0F172A" />
+  <circle cx="296" cy="29" r="4" fill="#0F172A" />
+  <rect x="306" y="24" width="20" height="10" rx="2.5" stroke="#0F172A" stroke-width="1.5" fill="none" />
+  <rect x="308" y="26" width="14" height="6" rx="1" fill="#10B981" />
+  
+  <rect x="24" y="46" width="28" height="28" rx="8" fill="#F83758" />
+  <text x="60" y="67" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#F83758">Stylish</text>
+  <circle cx="282" cy="60" r="16" fill="#F1F5F9" />
+  <circle cx="292" cy="48" r="7" fill="#F83758" />
+  <text x="292" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#FFF">6</text>
+  <circle cx="320" cy="60" r="16" fill="#F1F5F9" />
+  <circle cx="330" cy="48" r="7" fill="#F83758" />
+  <text x="330" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#FFF">2</text>
+  <rect x="24" y="84" width="312" height="38" rx="10" fill="#F1F5F9" stroke="#E2E8F0" />
+  <text x="46" y="107" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Search any Product..</text>
+  <text x="24" y="142" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">All Featured</text>
+  <g transform="translate(24, 152)">
+    <circle cx="24" cy="24" r="24" fill="#FFF0F3" stroke="#F83758" stroke-width="2" />
+    <text x="24" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#F83758">All</text>
+    <circle cx="84" cy="24" r="24" fill="#F1F5F9" />
+    <text x="84" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Fashion</text>
+    <circle cx="144" cy="24" r="24" fill="#F1F5F9" />
+    <text x="144" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Electronics</text>
+    <circle cx="204" cy="24" r="24" fill="#F1F5F9" />
+    <text x="204" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Shoes</text>
+    <circle cx="264" cy="24" r="24" fill="#F1F5F9" />
+    <text x="264" y="62" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Beauty</text>
+  </g>
+  <rect x="24" y="226" width="312" height="118" rx="14" fill="url(#heroGrad)" />
+  <rect x="38" y="240" width="94" height="16" rx="4" fill="#FFFFFF" opacity="0.25" />
+  <text x="44" y="251" font-family="system-ui, sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF">MEGA SEASON SALE</text>
+  <text x="38" y="278" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">50-40% OFF</text>
+  <text x="38" y="296" font-family="system-ui, sans-serif" font-size="10.5" fill="#FFFFFF">Now in Fashion &amp; Footwear • All Colours</text>
+  <rect x="38" y="308" width="82" height="24" rx="6" fill="#FFFFFF" />
+  <text x="79" y="324" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#F83758">Shop Now →</text>
+  <rect x="24" y="354" width="312" height="52" rx="10" fill="url(#blueGrad)" />
+  <text x="38" y="375" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Deal of the Day</text>
+  <text x="38" y="394" font-family="system-ui, sans-serif" font-size="10" fill="#FFFFFF">22h 55m 20s remaining</text>
+  <rect x="262" y="368" width="62" height="24" rx="6" stroke="#FFFFFF" fill="none" />
+  <text x="293" y="384" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">View all</text>
+  <text x="24" y="428" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">Best Sellers &amp; Catalog (36)</text>
+  <g transform="translate(24, 438)">
+    <rect x="0" y="0" width="150" height="206" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)" />
+    <rect x="0" y="0" width="150" height="104" rx="12" fill="#F1F5F9" />
+    <rect x="8" y="8" width="48" height="16" rx="4" fill="#F83758" />
+    <text x="32" y="19" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">50% OFF</text>
+    <text x="10" y="122" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">URBANEDGE</text>
+    <text x="10" y="138" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1E293B">Black Winter Jacket</text>
+    <text x="10" y="154" font-family="system-ui, sans-serif" font-size="10" fill="#F59E0B">★ 4.6 <tspan fill="#94A3B8">(6.9k)</tspan></text>
+    <text x="10" y="182" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">₹1,499 <tspan font-size="10" fill="#94A3B8" text-decoration="line-through">₹2,999</tspan></text>
+    <rect x="114" y="166" width="26" height="26" rx="7" fill="#F83758" />
+    <text x="127" y="184" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">+</text>
+  </g>
+  <g transform="translate(186, 438)">
+    <rect x="0" y="0" width="150" height="206" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)" />
+    <rect x="0" y="0" width="150" height="104" rx="12" fill="#FFF0F3" />
+    <rect x="8" y="8" width="48" height="16" rx="4" fill="#F83758" />
+    <text x="32" y="19" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">41% OFF</text>
+    <text x="10" y="122" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">NIKE JORDAN</text>
+    <text x="10" y="138" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1E293B">Air Jordan Retro 12</text>
+    <text x="10" y="154" font-family="system-ui, sans-serif" font-size="10" fill="#F59E0B">★ 4.9 <tspan fill="#94A3B8">(10.2k)</tspan></text>
+    <text x="10" y="182" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">₹4,999 <tspan font-size="10" fill="#94A3B8" text-decoration="line-through">₹8,499</tspan></text>
+    <rect x="114" y="166" width="26" height="26" rx="7" fill="#10B981" />
+    <text x="127" y="183" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+  </g>
+  <rect x="12" y="662" width="336" height="50" fill="#FFFFFF" stroke="#F1F5F9" />
+  <text x="46" y="694" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#F83758">Home</text>
+  <text x="114" y="694" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Wishlist</text>
+  <text x="180" y="694" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Cart</text>
+  <text x="246" y="694" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Search</text>
+  <text x="312" y="694" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Setting</text>
+
+  <rect x="125" y="714" width="110" height="4" rx="2" fill="#CBD5E1" />
+</svg>

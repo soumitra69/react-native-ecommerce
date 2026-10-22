@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F83758"/>
+      <stop offset="100%" stop-color="#FF758F"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4392F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="352" height="732" rx="38" fill="#0F172A" />
+  <rect x="12" y="12" width="336" height="716" rx="30" fill="#FFFFFF" />
+  <text x="32" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0F172A">9:41</text>
+  <rect x="132" y="20" width="96" height="18" rx="9" fill="#0F172A" />
+  <circle cx="296" cy="29" r="4" fill="#0F172A" />
+  <rect x="306" y="24" width="20" height="10" rx="2.5" stroke="#0F172A" stroke-width="1.5" fill="none" />
+  <rect x="308" y="26" width="14" height="6" rx="1" fill="#10B981" />
+  
+  <text x="24" y="66" font-family="system-ui, sans-serif" font-size="17" font-weight="800" fill="#17223B">Shopping Bag (2)</text>
+  <rect x="24" y="82" width="312" height="34" rx="8" fill="#ECFDF5" />
+  <text x="42" y="103" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#065F46">✓ Yay! You get FREE Express Delivery on this order.</text>
+  <rect x="24" y="126" width="312" height="102" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)" />
+  <rect x="34" y="136" width="74" height="82" rx="8" fill="#F1F5F9" />
+  <text x="120" y="152" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#17223B">Black Winter Puffer Jacket</text>
+  <text x="120" y="170" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Size: M • ★ 4.6</text>
+  <text x="120" y="204" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#17223B">₹1,499 <tspan font-size="11" fill="#94A3B8" text-decoration="line-through">₹2,999</tspan></text>
+  <rect x="256" y="186" width="68" height="26" rx="6" fill="#F1F5F9" />
+  <text x="290" y="203" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#17223B">-  1  +</text>
+  <rect x="24" y="238" width="312" height="102" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)" />
+  <rect x="34" y="248" width="74" height="82" rx="8" fill="#FFF0F3" />
+  <text x="120" y="264" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#17223B">Air Jordan Stay Retro 12</text>
+  <text x="120" y="282" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Size: UK 8 • ★ 4.9</text>
+  <text x="120" y="316" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#17223B">₹4,999 <tspan font-size="11" fill="#94A3B8" text-decoration="line-through">₹8,499</tspan></text>
+  <rect x="256" y="298" width="68" height="26" rx="6" fill="#F1F5F9" />
+  <text x="290" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#17223B">-  1  +</text>
+  <rect x="24" y="352" width="312" height="54" rx="12" fill="#ECFDF5" stroke="#10B981" />
+  <text x="42" y="376" font-family="system-ui, sans-serif" font-size="12.5" font-weight="800" fill="#065F46">✓ STYLISH10 Applied (10% OFF)</text>
+  <text x="42" y="394" font-family="system-ui, sans-serif" font-size="11" fill="#047857">You saved ₹650 on this order!</text>
+  <rect x="24" y="418" width="312" height="168" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="38" y="442" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">Order Payment Details</text>
+  <text x="38" y="468" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Order Amounts (2 items)</text>
+  <text x="322" y="468" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#17223B">₹11,498</text>
+  <text x="38" y="492" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Discount on MRP</text>
+  <text x="322" y="492" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#10B981">- ₹5,000</text>
+  <text x="38" y="516" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Coupon (STYLISH10)</text>
+  <text x="322" y="516" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#10B981">- ₹650</text>
+  <text x="38" y="540" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Delivery Fee</text>
+  <text x="322" y="540" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#10B981">FREE</text>
+  <text x="38" y="570" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#17223B">Order Total</text>
+  <text x="322" y="570" text-anchor="end" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#F83758">₹5,848</text>
+  <rect x="24" y="604" width="312" height="52" rx="12" fill="#F83758" />
+  <text x="180" y="635" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">Proceed to Payment • ₹5,848 →</text>
+
+  <rect x="125" y="714" width="110" height="4" rx="2" fill="#CBD5E1" />
+</svg>

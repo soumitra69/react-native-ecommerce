@@ -1,14 +1,21 @@
-import { Stack } from "expo-router";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import React from 'react';
+import { Stack } from 'expo-router';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { AuthProvider } from '../context/AuthContext';
+import { CartProvider } from '../context/CartContext';
 
 export default function RootLayout() {
   return (
     <SafeAreaProvider>
-      <Stack
-        screenOptions={{
-          headerShown: false,
-        }}
-      />
+      <AuthProvider>
+        <CartProvider>
+          <Stack
+            screenOptions={{
+              headerShown: false,
+            }}
+          />
+        </CartProvider>
+      </AuthProvider>
     </SafeAreaProvider>
   );
 }

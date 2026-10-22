@@ -1,57 +1,41 @@
-import React from "react";
-import {
-  SafeAreaView,
-  StatusBar,
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-} from "react-native";
-import { router } from "expo-router";
+import React from 'react';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { router } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import Character from '../Image/freepik--Character--inject-4.svg';
 
-// Import SVG
-import Character from "../Image/freepik--Character--inject-4.svg";
-
-const Splash3 = () => {
+export default function Splash3() {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar
-        backgroundColor="#fff"
-        barStyle="dark-content"
-      />
-
-      {/* Header */}
+      <StatusBar style="dark" />
       <View style={styles.header}>
         <Text style={styles.page}>
           <Text style={styles.current}>3</Text>
           <Text style={styles.total}>/3</Text>
         </Text>
 
-        <TouchableOpacity onPress={() => router.replace("/auth/login")}>
+        <TouchableOpacity onPress={() => router.replace('/auth/login')}>
           <Text style={styles.skip}>Skip</Text>
         </TouchableOpacity>
       </View>
 
-      {/* SVG Image */}
-      <Character
-        width={320}
-        height={320}
-        style={styles.image}
-      />
+      <View style={styles.centerContent}>
+        <Character width={280} height={280} style={styles.image} />
 
-      {/* Content */}
-      <View style={styles.content}>
-        <Text style={styles.title}>Get Your Order</Text>
-
-        <Text style={styles.description}>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
-        </Text>
+        <View style={styles.content}>
+          <Text style={styles.title}>Get Your Order</Text>
+          <Text style={styles.description}>
+            Track your package in real time and get lightning-fast doorstep
+            delivery with hassle-free 7-day returns.
+          </Text>
+        </View>
       </View>
 
-      {/* Footer */}
       <View style={styles.footer}>
-        <TouchableOpacity onPress={() => router.back()}>
+        <TouchableOpacity
+          onPress={() => router.replace('/onboarding/splash2')}
+        >
           <Text style={styles.prev}>Prev</Text>
         </TouchableOpacity>
 
@@ -61,112 +45,98 @@ const Splash3 = () => {
           <View style={styles.activeDot} />
         </View>
 
-        <TouchableOpacity onPress={() => router.replace("/auth/login")}>
+        <TouchableOpacity onPress={() => router.replace('/auth/login')}>
           <Text style={styles.next}>Get Started</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
-};
-
-export default Splash3;
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: '#FFFFFF',
     paddingHorizontal: 20,
   },
-
   header: {
-    marginTop: 40,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+    paddingTop: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-
   page: {
     fontSize: 18,
-    fontWeight: "700",
+    fontWeight: '700',
   },
-
   current: {
-    color: "#000",
+    color: '#000000',
   },
-
   total: {
-    color: "#A0A0A1",
+    color: '#A0A0A1',
   },
-
   skip: {
     fontSize: 18,
-    fontWeight: "700",
-    color: "#000",
+    fontWeight: '700',
+    color: '#000000',
   },
-
+  centerContent: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   image: {
-    alignSelf: "center",
-    marginTop: 50,
+    alignSelf: 'center',
   },
-
   content: {
-    marginTop: 30,
-    alignItems: "center",
+    marginTop: 28,
+    alignItems: 'center',
   },
-
   title: {
     fontSize: 26,
-    fontWeight: "800",
-    color: "#000",
+    fontWeight: '800',
+    color: '#000000',
   },
-
   description: {
-    marginTop: 15,
+    marginTop: 14,
     fontSize: 15,
     lineHeight: 24,
-    color: "#9B9B9B",
-    textAlign: "center",
+    color: '#64748B',
+    textAlign: 'center',
     paddingHorizontal: 10,
   },
-
   footer: {
-    marginTop: "auto",
-    marginBottom: 35,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+    marginBottom: 28,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-
   prev: {
     fontSize: 18,
-    fontWeight: "700",
-    color: "#C4C4C4",
+    fontWeight: '700',
+    color: '#94A3B8',
   },
-
   indicator: {
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection: 'row',
+    alignItems: 'center',
   },
-
   dot: {
     width: 10,
     height: 10,
     borderRadius: 5,
-    backgroundColor: "#D7D7D7",
+    backgroundColor: '#D7D7D7',
     marginHorizontal: 5,
   },
-
   activeDot: {
     width: 40,
     height: 8,
     borderRadius: 10,
-    backgroundColor: "#17223B",
+    backgroundColor: '#17223B',
     marginHorizontal: 5,
   },
-
   next: {
     fontSize: 18,
-    fontWeight: "700",
-    color: "#F83758",
+    fontWeight: '700',
+    color: '#F83758',
   },
 });

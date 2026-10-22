@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F83758"/>
+      <stop offset="100%" stop-color="#FF758F"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4392F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="352" height="732" rx="38" fill="#0F172A" />
+  <rect x="12" y="12" width="336" height="716" rx="30" fill="#FFFFFF" />
+  <text x="32" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0F172A">9:41</text>
+  <rect x="132" y="20" width="96" height="18" rx="9" fill="#0F172A" />
+  <circle cx="296" cy="29" r="4" fill="#0F172A" />
+  <rect x="306" y="24" width="20" height="10" rx="2.5" stroke="#0F172A" stroke-width="1.5" fill="none" />
+  <rect x="308" y="26" width="14" height="6" rx="1" fill="#10B981" />
+  
+  <text x="32" y="92" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#0F172A">Create an</text>
+  <text x="32" y="130" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="#0F172A">Account</text>
+  <rect x="32" y="156" width="296" height="48" rx="12" fill="#F8FAFC" stroke="#CBD5E1" />
+  <text x="54" y="185" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Username or Email</text>
+  <rect x="32" y="216" width="296" height="48" rx="12" fill="#F8FAFC" stroke="#CBD5E1" />
+  <text x="54" y="245" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Password</text>
+  <rect x="32" y="276" width="296" height="48" rx="12" fill="#F8FAFC" stroke="#CBD5E1" />
+  <text x="54" y="305" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Confirm Password</text>
+  <text x="32" y="346" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748B">By clicking the <tspan fill="#F83758" font-weight="700">Create Account</tspan> button, you agree</text>
+  <text x="32" y="362" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748B">to the public offer and privacy terms.</text>
+  <rect x="32" y="382" width="296" height="52" rx="10" fill="#F83758" />
+  <text x="180" y="414" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Create Account</text>
+  <text x="180" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">- OR Continue with -</text>
+  <circle cx="116" cy="514" r="24" fill="#FFF5F7" stroke="#F83758" />
+  <text x="116" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#EA4335">G</text>
+  <circle cx="180" cy="514" r="24" fill="#FFF5F7" stroke="#F83758" />
+  <text x="180" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#0F172A">A</text>
+  <circle cx="244" cy="514" r="24" fill="#FFF5F7" stroke="#F83758" />
+  <text x="244" y="520" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#1877F2">f</text>
+  <text x="180" y="580" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Already have an account? <tspan fill="#F83758" font-weight="700" text-decoration="underline">Sign In</tspan></text>
+
+  <rect x="125" y="714" width="110" height="4" rx="2" fill="#CBD5E1" />
+</svg>
