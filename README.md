@@ -198,7 +198,7 @@ app/
 
 ```bash
 # Clone Repository
-git clone https://github.com/your-username/stylish.git
+git clone https://github.com/soumitra69/react-native-ecommerce.git
 
 # Install Dependencies
 npm install
@@ -271,9 +271,9 @@ Stay tuned for exciting new features and continuous improvements!
 
 ### ⭐ If you like this project, don't forget to Star the repository!
 
-<img src="https://img.shields.io/github/stars/your-username/stylish?style=for-the-badge" />
-<img src="https://img.shields.io/github/forks/your-username/stylish?style=for-the-badge" />
-<img src="https://img.shields.io/github/issues/your-username/stylish?style=for-the-badge" />
+<img src="https://img.shields.io/github/stars/soumitra69/react-native-ecommerce?style=for-the-badge" />
+<img src="https://img.shields.io/github/forks/soumitra69/react-native-ecommerce?style=for-the-badge" />
+<img src="https://img.shields.io/github/issues/soumitra69/react-native-ecommerce?style=for-the-badge" />
 
 **Made with ❤️ using React Native & Expo**
 
@@ -297,7 +297,7 @@ Stay tuned for exciting new features and continuous improvements!
 
 User feedback shapes this app! If something feels confusing, slow, or could be more intuitive, please open an issue — UX feedback is just as valuable as bug reports.
 
-- 🐛 Found a bug? [Open an issue](https://github.com/your-username/stylish/issues)
+- 🐛 Found a bug? [Open an issue](https://github.com/soumitra69/react-native-ecommerce/issues)
 - 💡 Have a UX suggestion? We'd love to hear it
 - 🔧 Want to contribute? Pull requests are welcome
 
